@@ -1,6 +1,9 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import plotly.express as px          
+import plotly.graph_objects as go    # ← Opsional, tapi recommended
+
 
 # --- 1. SETTING HALAMAN ---
 st.set_page_config(page_title="Dashboard Ekspansi Bisnis", page_icon="🚀", layout="wide")
